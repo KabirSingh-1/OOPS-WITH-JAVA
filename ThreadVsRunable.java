@@ -56,3 +56,4 @@ public class ThreadVsRunable {
 }
 // a class will extend thread and thread implements runable interface which is functional interface so we can use anonymous inner class and also lambda expression 
 // one more imp thing runable does't have start methoda that's why we have to make thread object and pass runnable object as parameter in thread constuctor 
+// keep in mind about thread state whenever we start thread it goes in new state (check diagram in notes)

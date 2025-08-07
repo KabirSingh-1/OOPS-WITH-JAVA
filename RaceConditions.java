@@ -27,3 +27,5 @@ public class RaceConditions {
     }
 
 }
+
+// A race condition occurs when multiple threads or porcesses try to access and modify the same shared data simultaneously. the outcome depends on the unpredictable order in which they execute ,leading to potential data corruption  or incorrect result 
