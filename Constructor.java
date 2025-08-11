@@ -20,9 +20,9 @@ class Employee {
     String name;
 
     // Parameterized Constructor
-    Employee(int i, String n) {
-        id = i;
-        name = n;
+    Employee(int id, String name) {
+        this.id = id;
+        this.name = name;
     }
 
     void show() {
@@ -34,8 +34,8 @@ class Book {
     String title;
 
     // Parameterized constructor
-    Book(String t) {
-        title = t;
+    Book(String title) {
+        this.title = title;
     }
 
     // Copy Constructor
