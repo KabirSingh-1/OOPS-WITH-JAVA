@@ -1,8 +1,8 @@
-class car{
+class car1{
     int speed;
     String color;
 
-    car(int speed, String color){
+    car1(int speed, String color){
         this.speed = speed;
         this.color = color;
         System.out.println("speed of a car: "+speed);
@@ -17,7 +17,7 @@ class car{
 public class ClassAndObject {
 
     public static void main(String[] args) {
-        car obj = new car(100, "black");
+        car1 obj = new car1(100, "black");
         obj.drive();
     }
 }
