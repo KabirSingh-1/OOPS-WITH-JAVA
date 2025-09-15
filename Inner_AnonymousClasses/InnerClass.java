@@ -10,6 +10,11 @@ class A{
             System.out.println("in config");
         }
     }
+    class C{
+        public void print(){
+            System.out.println("in print ");
+        }
+    }
 }
 
 public class InnerClass {
@@ -18,6 +23,8 @@ public class InnerClass {
         obj.show();
         // A.B obj1 = obj.new B(); // b is non-static class
         A.B obj1 = new A.B(); // b is static class
+        A.C obj3 = obj.new C(); // non- static 
+        obj3.print();
 
         obj1.config();
    } 
